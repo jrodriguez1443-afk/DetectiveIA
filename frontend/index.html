@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detective IA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Detective IA</h1>
+        <select id="suspectSelect">
+            <option value="suspect1">Laura</option>
+            <option value="suspect2">Marcos</option>
+            <option value="suspect3">Sofia</option>
+            <option value="suspect4">Daniel</option>
+        </select>
+        <div id="chat"></div>
+        <input
+            type="text"
+            id="message"
+            placeholder="Haz una pregunta..."
+        >
+        <button onclick="sendMessage()">
+            Enviar
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
