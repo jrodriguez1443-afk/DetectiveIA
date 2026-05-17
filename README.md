@@ -2,7 +2,7 @@
 
 Joc web on pots resoldre un assassinat interrogant sosipotosos control·last per IA.
 
-## Tecnologías
+## Tecnologies
 - HTML
 - CSS
 - JavaScript
