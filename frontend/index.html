@@ -1,32 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>Detective IA</title>
 
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-    <div class="container">
-        <h1>Detective IA</h1>
-        <select id="suspectSelect">
-            <option value="suspect1">Laura</option>
-            <option value="suspect2">Marcos</option>
-            <option value="suspect3">Sofia</option>
-            <option value="suspect4">Daniel</option>
-        </select>
-        <div id="chat"></div>
-        <input
-            type="text"
-            id="message"
-            placeholder="Haz una pregunta..."
+</head>
+
+<body>
+    <audio id="music" loop>
+
+    <source
+        src="./sounds/ambient.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+<div class="game">
+
+    <div class="left">
+
+        <img
+            id="suspectImage"
+            src="./suspects/laura.png"
         >
-        <button onclick="sendMessage()">
-            Enviar
-        </button>
+
+        <h2 id="suspectName">
+            <div id="suspicionContainer">
+
+    <div id="suspicionBar"></div>
+
+</div>
+
+<p id="suspicionText">
+    Sospecha: 0%
+</p>
+            Laura
+        </h2>
+
+        <select id="suspectSelect"
+                onchange="changeSuspect()">
+
+            <option value="suspect1">
+                Laura
+            </option>
+
+            <option value="suspect2">
+                Marcos
+            </option>
+
+            <option value="suspect3">
+                Sofia
+            </option>
+
+            <option value="suspect4">
+                Daniel
+            </option>
+
+        </select>
+
     </div>
-    <script src="script.js"></script>
+
+    <div class="right">
+
+        <h1>
+            Detective IA
+        </h1>
+        <p class="story">
+    La víctima fue encontrada muerta
+    en el Hotel Paradise a las 23:47.
+    Hay 4 sospechosos.
+    Descubre quién es el asesino.
+</p>
+<div id="clues">
+
+    <h3>Pistas encontradas</h3>
+
+</div>
+        <div id="chat"></div>
+
+        <div class="bottom">
+
+            <input
+                type="text"
+                id="message"
+                placeholder="Haz una pregunta..."
+            >
+
+            <button onclick="sendMessage()">
+                Enviar
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<button class="accuseButton"
+        onclick="accuse()">
+
+    Acusar sospechoso
+
+</button>
+<script>
+
+document.body.addEventListener("click", () => {
+
+    const music =
+        document.getElementById("music");
+
+    music.play();
+    music.volume = 0.1;
+
+}, { once: true });
+
+</script>
+<script src="script.js"></script>
+
 </body>
 </html>

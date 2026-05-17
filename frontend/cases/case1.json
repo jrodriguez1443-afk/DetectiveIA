@@ -1,0 +1,44 @@
+{
+  "victim": "Carlos Ruiz",
+
+  "killer": "",
+  "clues": [
+
+  "Una huella en el cuchillo",
+
+  "Una llamada sospechosa a las 22:15",
+
+  "Una cámara de seguridad rota",
+
+  "Restos de sangre en el ascensor"
+
+],
+
+  "suspects": [
+
+    {
+      "name": "Laura",
+      "job": "Recepcionista",
+      "secret": "Discutió con la víctima"
+    },
+
+    {
+      "name": "Marcos",
+      "job": "Empresario",
+      "secret": "Tenía deudas"
+    },
+
+    {
+      "name": "Sofia",
+      "job": "Camarera",
+      "secret": "Escuchó gritos"
+    },
+
+    {
+      "name": "Daniel",
+      "job": "Abogado",
+      "secret": "Mintió a la policía"
+    }
+  ]
+  
+}

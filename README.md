@@ -1,6 +1,6 @@
 # Detective IA
 
-Juego web donde debes resolver un asesinato interrogando sospechosos controlados por IA.
+Joc web on pots resoldre un assassinat interrogant sosipotosos control·last per IA.
 
 ## Tecnologías
 - HTML
@@ -8,8 +8,11 @@ Juego web donde debes resolver un asesinato interrogando sospechosos controlados
 - JavaScript
 - Node.js
 - Gemini API
+- OpenRouter 
+- ChatGPT
+- Gemini
 
-## Instalación
+## Instal·lació
 
 npm install
 node server.js
