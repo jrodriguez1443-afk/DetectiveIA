@@ -1,0 +1,44 @@
+{
+  "victim": "Jordi Miralles",
+
+  "killer": "",
+
+  "clues": [
+
+    "Restes de fang a l'entrada",
+
+    "Un rellotge trencat",
+
+    "Una copa amb empremtes",
+
+    "Sorolls estranys a les 02:00"
+
+  ],
+
+  "suspects": [
+
+    {
+      "name": "Laura",
+      "job": "Cambrera",
+      "secret": "Va discutir amb la víctima"
+    },
+
+    {
+      "name": "Marcos",
+      "job": "Professor",
+      "secret": "Va desaparèixer durant una hora"
+    },
+
+    {
+      "name": "Sofia",
+      "job": "Detectiu privat",
+      "secret": "Investigava la víctima"
+    },
+
+    {
+      "name": "Daniel",
+      "job": "Policia",
+      "secret": "Coneixia informació amagada"
+    }
+  ]
+}

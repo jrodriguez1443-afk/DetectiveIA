@@ -2,43 +2,43 @@
   "victim": "Carlos Ruiz",
 
   "killer": "",
+
   "clues": [
 
-  "Una huella en el cuchillo",
+    "Una empremta al ganivet",
 
-  "Una llamada sospechosa a las 22:15",
+    "Una trucada sospitosa a les 22:15",
 
-  "Una cámara de seguridad rota",
+    "Una càmera de seguretat trencada",
 
-  "Restos de sangre en el ascensor"
+    "Restes de sang a l'ascensor"
 
-],
+  ],
 
   "suspects": [
 
     {
       "name": "Laura",
       "job": "Recepcionista",
-      "secret": "Discutió con la víctima"
+      "secret": "Va discutir amb la víctima"
     },
 
     {
       "name": "Marcos",
-      "job": "Empresario",
-      "secret": "Tenía deudas"
+      "job": "Empresari",
+      "secret": "Tenia deutes"
     },
 
     {
       "name": "Sofia",
-      "job": "Camarera",
-      "secret": "Escuchó gritos"
+      "job": "Cambrera",
+      "secret": "Va escoltar crits"
     },
 
     {
       "name": "Daniel",
-      "job": "Abogado",
-      "secret": "Mintió a la policía"
+      "job": "Advocat",
+      "secret": "Va mentir a la policia"
     }
   ]
-  
 }

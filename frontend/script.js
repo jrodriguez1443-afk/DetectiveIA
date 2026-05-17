@@ -179,8 +179,12 @@ function accuse() {
 }
 async function loadCase() {
 
+    const randomCase =
+        Math.floor(Math.random() * 3) + 1;
+
     const response =
-        await fetch("./cases/case1.json");
+        await fetch(`./cases/case${randomCase}.json`);
+
 
     const data =
         await response.json();

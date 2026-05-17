@@ -1,0 +1,44 @@
+{
+  "victim": "Anna Torres",
+
+  "killer": "",
+
+  "clues": [
+
+    "Un mòbil trencat al carrer",
+
+    "Empremtes a la finestra del despatx",
+
+    "Una nota amb amenaces",
+
+    "Una càmera de seguretat apagada"
+
+  ],
+
+  "suspects": [
+
+    {
+      "name": "Laura",
+      "job": "Periodista",
+      "secret": "Coneixia la víctima"
+    },
+
+    {
+      "name": "Marcos",
+      "job": "Advocat",
+      "secret": "Tenia discussions constants"
+    },
+
+    {
+      "name": "Sofia",
+      "job": "Infermera",
+      "secret": "Va veure algú fugir"
+    },
+
+    {
+      "name": "Daniel",
+      "job": "Empresari",
+      "secret": "Devia diners"
+    }
+  ]
+}

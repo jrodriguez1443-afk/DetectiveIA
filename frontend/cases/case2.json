@@ -1,0 +1,31 @@
+{
+  "victim": "Anna Torres",
+
+  "clues": [
+
+    "Un mòbil trencat",
+
+    "Empremtes a la finestra",
+
+    "Una nota misteriosa"
+  ],
+
+  "suspects": [
+
+    {
+      "name": "Laura"
+    },
+
+    {
+      "name": "Marcos"
+    },
+
+    {
+      "name": "Sofia"
+    },
+
+    {
+      "name": "Daniel"
+    }
+  ]
+}
