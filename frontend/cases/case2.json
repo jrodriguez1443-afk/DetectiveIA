@@ -2,16 +2,12 @@
   "victim": "Anna Torres",
 
   "clues": [
-
-    "Un mòbil trencat",
-
-    "Empremtes a la finestra",
-
+    "Un móvil roto",
+    "Huellas en la ventana",
     "Una nota misteriosa"
   ],
 
   "suspects": [
-
     {
       "name": "Laura"
     },

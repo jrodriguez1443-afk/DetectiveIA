@@ -4,41 +4,35 @@
   "killer": "",
 
   "clues": [
-
-    "Una empremta al ganivet",
-
-    "Una trucada sospitosa a les 22:15",
-
-    "Una càmera de seguretat trencada",
-
-    "Restes de sang a l'ascensor"
-
+    "Una huella en el cuchillo",
+    "Una llamada sospechosa a las 22:15",
+    "Una cámara de seguridad rota",
+    "Restos de sangre en el ascensor"
   ],
 
   "suspects": [
-
     {
       "name": "Laura",
       "job": "Recepcionista",
-      "secret": "Va discutir amb la víctima"
+      "secret": "Discutió con la víctima"
     },
 
     {
       "name": "Marcos",
-      "job": "Empresari",
-      "secret": "Tenia deutes"
+      "job": "Empresario",
+      "secret": "Tenía deudas"
     },
 
     {
       "name": "Sofia",
-      "job": "Cambrera",
-      "secret": "Va escoltar crits"
+      "job": "Camarera",
+      "secret": "Escuchó gritos"
     },
 
     {
       "name": "Daniel",
-      "job": "Advocat",
-      "secret": "Va mentir a la policia"
+      "job": "Abogado",
+      "secret": "Mintió a la policía"
     }
   ]
 }

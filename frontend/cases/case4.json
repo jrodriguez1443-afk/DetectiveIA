@@ -4,41 +4,35 @@
   "killer": "",
 
   "clues": [
-
-    "Restes de fang a l'entrada",
-
-    "Un rellotge trencat",
-
-    "Una copa amb empremtes",
-
-    "Sorolls estranys a les 02:00"
-
+    "Restos de barro en la entrada",
+    "Un reloj roto",
+    "Una copa con huellas",
+    "Ruidos extraños a las 02:00"
   ],
 
   "suspects": [
-
     {
       "name": "Laura",
-      "job": "Cambrera",
-      "secret": "Va discutir amb la víctima"
+      "job": "Camarera",
+      "secret": "Discutió con la víctima"
     },
 
     {
       "name": "Marcos",
-      "job": "Professor",
-      "secret": "Va desaparèixer durant una hora"
+      "job": "Profesor",
+      "secret": "Desapareció durante una hora"
     },
 
     {
       "name": "Sofia",
-      "job": "Detectiu privat",
-      "secret": "Investigava la víctima"
+      "job": "Detective privado",
+      "secret": "Investigaba a la víctima"
     },
 
     {
       "name": "Daniel",
-      "job": "Policia",
-      "secret": "Coneixia informació amagada"
+      "job": "Policía",
+      "secret": "Conocía información oculta"
     }
   ]
 }

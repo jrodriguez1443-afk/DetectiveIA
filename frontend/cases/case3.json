@@ -4,41 +4,35 @@
   "killer": "",
 
   "clues": [
-
-    "Un mòbil trencat al carrer",
-
-    "Empremtes a la finestra del despatx",
-
-    "Una nota amb amenaces",
-
-    "Una càmera de seguretat apagada"
-
+    "Un móvil roto en la calle",
+    "Huellas en la ventana del despacho",
+    "Una nota con amenazas",
+    "Una cámara de seguridad apagada"
   ],
 
   "suspects": [
-
     {
       "name": "Laura",
       "job": "Periodista",
-      "secret": "Coneixia la víctima"
+      "secret": "Conocía a la víctima"
     },
 
     {
       "name": "Marcos",
-      "job": "Advocat",
-      "secret": "Tenia discussions constants"
+      "job": "Abogado",
+      "secret": "Tenía discusiones constantes"
     },
 
     {
       "name": "Sofia",
-      "job": "Infermera",
-      "secret": "Va veure algú fugir"
+      "job": "Enfermera",
+      "secret": "Vio a alguien huir"
     },
 
     {
       "name": "Daniel",
-      "job": "Empresari",
-      "secret": "Devia diners"
+      "job": "Empresario",
+      "secret": "Debía dinero"
     }
   ]
 }
